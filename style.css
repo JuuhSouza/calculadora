@@ -1,0 +1,110 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/64/db/fb/64dbfb279110e5730b698a752532605b.gif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#73168C;
+    text-shadow: 2px 1px 1px white;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 3em;
+    color: #ffffff;
+    text-shadow: 2px 1px 6px #ffffff;
+    margin-top: 1.2em;
+    
+}
+
+#calculator{
+    max-width: 360px;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/029/462/049/original/pixel-jeff-waiting-ll-2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 2px 3px 4px rgb(255, 255, 255);
+    
+    
+}
+
+#display {
+    width: 100%;
+    height: 65px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    padding: 20px;
+    border-radius: 3px;
+    color: rgb(0, 0, 0) ;
+    background-color: #ffffff;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button{
+    width: calc(25% - 12px); /*  */
+    height: 50px;
+    font-size: 22px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    background-color: #73168C;
+    color: aliceblue;
+    box-shadow: 2px 2px 3px rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.operator{
+    color: #ffffff;
+    background-color: #281259;
+
+}
+
+#ac{
+    color: #ffffff;
+}
+
+.equal{
+    width: calc(50% - 12px);
+    background-color: #281259;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+button:active{
+    transform: translateX(10px);
+    box-shadow: 2px 2px 2px black;
+}
+
+footer {
+    font-size: 1.2em;
+    margin-top: 1em;
+    background-color: #281259;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    align-items: center;
+    text-shadow: 2px 1px 6px #ffffff;
+    box-shadow: 2px 2px 2px black;
+   
+
+    
+}
+
+
+
+
+
